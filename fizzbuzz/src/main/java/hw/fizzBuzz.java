@@ -3,9 +3,7 @@ package hw;
 public class fizzBuzz {
     public static void main(final String[] args) {
         
-        int n = 17;
-        
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= args.length; i++) {
             int x = i % 3;
             int y = i % 5;
             
