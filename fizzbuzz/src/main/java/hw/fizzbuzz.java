@@ -1,50 +1,41 @@
 package hw;
 
+import java.util.ArrayList;
+
 public class fizzbuzz {
 
   // PART TWO
 
-  // public static void fizzbuzzPrint {
+  // public static void printFizzBuzz(int n) {
 
-  //   if (n >= 1) {
+  //   for (int i = 1; i <= n; i++) {
+  //     int x = i % 3;
+  //     int y = i % 5;
 
-  //     int n = 20;
+  //     if (x == 0 && y == 0) {
 
-  //     for (int i = 1; i <= n; i++) {
-  //       int x = i % 3;
-  //       int y = i % 5;
+  //       System.out.println("fizz buzz");
 
-  //       if (x == 0 && y == 0) {
+  //     } else if (x == 0) {
 
-  //         System.out.println("fizz buzz");
+  //       System.out.println("fizz");
 
-  //       } else if (x == 0) {
+  //     } else if (y == 0) {
 
-  //         System.out.println("fizz");
+  //       System.out.println("buzz");
 
-  //       } else if (y == 0) {
+  //     } else {
 
-  //         System.out.println("buzz");
-
-  //       } else {
-
-  //         System.out.println(i);
-  //       }
-
+  //       System.out.println(i);
   //     }
-
-  //   } else {
-
-  //     System.out.println("Invalid");
-  //     return null;
-
+      
   //   }
 
   // }
 
   // PART THREE
 
-  public static String[] fizzbuzzArray(final int n) {
+  public static String[] fizzBuzz(final int n) {
 
     if (n >= 1) {
 
@@ -70,14 +61,17 @@ public class fizzbuzz {
 
           list[i] = String.valueOf(i);
         }
+        
       }
-
+      
       return list;
 
     } else {
-
+      
       System.out.println("Invalid");
       return null;
     }
+    
   }
+  
 }

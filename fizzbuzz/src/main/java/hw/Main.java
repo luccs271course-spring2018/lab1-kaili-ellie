@@ -1,9 +1,9 @@
 package hw;
 
 public class Main {
-  public static void main(final String[] args) {
+  public static void main(String[] args) {
 
-    int n = 0;
+    int n = 17;
 
     try {
       n = Integer.parseInt(args[0]);
@@ -14,7 +14,6 @@ public class Main {
       System.exit(1);
     }
 
-    //fizzbuzz.fizzbuzzPrint(n);
-    fizzbuzz.fizzbuzzArray(n);
+    fizzbuzz.fizzBuzz(n);
   }
 }
