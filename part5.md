@@ -28,7 +28,7 @@ public static void main(String[] args){
 
 ### How could you have automatically tested your initial solution from part 2?
 
-A way to test the initial solution from part two would be to run the code that we wrote for the program.
+A way to test the initial solution from part two would be to run the code that we wrote for the program through a test class.
 
 ### What changes between parts 2, 3, and 4, and what stays the same? Does it matter what list implementation you choose? If so, in what way(s)?
 
